@@ -1,0 +1,73 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+a {
+    margin-bottom: 20px;
+}
+.resultPhoto{
+    display: block;
+    max-width: 500px;
+}
+.link-home{
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 1px solid;
+}
+ol>li:first-child{
+    margin-bottom: 15px;
+}
+ol{
+    min-height: 150px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+form.numberArray {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.arrInput {
+  display: block;
+  margin: 15px auto;
+  width: 100%;
+}
+
+.photoDiv {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.photoDiv label {
+  margin: 0 20px; 
+}
+
+.submitPhoto {
+    display: block;
+    background: blueviolet;
+    max-width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    min-height: 40px;
+}
+.submitPhoto:hover{
+    transition: 0.5s;
+    background: deepskyblue;
+    color: #fff;
+    border-color: cornflowerblue;
+}
